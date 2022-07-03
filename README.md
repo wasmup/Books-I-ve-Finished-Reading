@@ -25,6 +25,20 @@ If you do not have primary objects, it is difficult to say that you have an ente
 Primary objects (absolutely essential - elements of models): they are the “who, what, when, where, and why” of your architecture  
 (the “how” will be determined by the emergent behaviors of the enterprise)  
 
+A goal without a strategy (plan) for achievement is just a wish:  
+Goals are the “why” of the enterprise architecture effort (clearly defined, measurable
+goals):  
+If goals are not one of the primary objects of the enterprise
+architecture, it is likely that architects and managers alike will lose sight of them and be
+distracted by the details of the modeling process.
+It is human nature for people to pay attention to those things on which they
+are evaluated and to ignore things on which they are not.
+
+Enterprise goals are those goals that the enterprise wants to achieve (important to management).  
+it is important that the enterprise architecture project itself have some measurable goals.  
+management is the primary customer of the enterprise architecture team.  
+
+e.g.: improving the interoperability among systems,  increasing the consistency between architecture & implementation teams.
 
 
 
