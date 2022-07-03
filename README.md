@@ -1,6 +1,34 @@
 # Books-I-ve-Finished-Reading
 Books I've Finished Reading
 
+---
+
+## Practical Event-Driven Microservices Architecture
+
+---
+
+## Scalability Patterns Best Practices for Designing High Volume Websites
+Mean Time Between Failures (MTBF): This is defined as the difference of Total Time Elapsed and Total Downtime divided by the number of failures.  
+
+MTBF = (Total Time Elapsed - Total Downtime)/(Number of failures)  
+
+Mean Time to Repair (MTTR): This is defined as the average time taken to repair a failed component.
+
+Availability (%) = (Total Time Elapsed - Total Downtime)/(Total Time Elapsed)
+
+---
+
+
+## Software Engineering at Google
+software engineering task is a team effort.  
+even the most innocuous change will break something .  
+“It’s program‐ming if ‘clever’ is a compliment, but it’s software engineering if ‘clever’ is an accusation.”   
+Practice and expertise are great drivers of efficiency and reliability.  
+
+42
+
+---
+
 ## Complex Enterprise Architecture by John D. McDowall
 A large corporation is an enterprise, but that corporation may also have multiple
 divisions, each of which is an enterprise in its own right.    
@@ -226,28 +254,10 @@ I prefer using BPMN to model processes and behaviors because it has a much
 richer set of elements for representing workflows than UML or SysML Activity diagrams.  
 I use OWL for two primary purposes: modeling data and describing my architecture metamodel.
 
+One of the more challenging tasks for any enterprise is to truly understand how data
+flows through the enterprise, who uses that data, and what the data is used for. This is
+one of the key areas in which the enterprise will recognize emergent behaviors.
 
 
 
-
-## Practical Event-Driven Microservices Architecture
-
-
-
-
-## Scalability Patterns Best Practices for Designing High Volume Websites
-Mean Time Between Failures (MTBF): This is defined as the difference of Total Time Elapsed and Total Downtime divided by the number of failures.  
-
-MTBF = (Total Time Elapsed - Total Downtime)/(Number of failures)  
-
-Mean Time to Repair (MTTR): This is defined as the average time taken to repair a failed component.
-
-Availability (%) = (Total Time Elapsed - Total Downtime)/(Total Time Elapsed)
-
-## Software Engineering at Google
-software engineering task is a team effort.  
-even the most innocuous change will break something .  
-“It’s program‐ming if ‘clever’ is a compliment, but it’s software engineering if ‘clever’ is an accusation.”   
-Practice and expertise are great drivers of efficiency and reliability.  
-
-42
+---
