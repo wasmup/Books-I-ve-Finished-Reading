@@ -2,6 +2,7 @@
 Books I've Finished Reading
 
 ## Complex Enterprise Architecture by John D. McDowall
+Making sure the model is useful is the architect’s primary task:  
 Precision  
 Model-based engineering  
 Automated analysis  
