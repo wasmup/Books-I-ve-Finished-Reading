@@ -17,6 +17,10 @@ If different implementation teams do create incompatible versions from the same 
 e.g.: use a common authentication component.  
 Creating a single model of this component at the enterprise level will save the individual implementation teams the work of creating such a model for use in their own designs.
 
+In general, if something is a well-defined component and analyzing it by itself might be useful, then it is probably about the right size for a separate model.
+
+
+
 
 
 
