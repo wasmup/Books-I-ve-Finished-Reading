@@ -25,7 +25,7 @@ If you do not have primary objects, it is difficult to say that you have an ente
 Primary objects (absolutely essential - elements of models): they are the “who, what, when, where, and why” of your architecture  
 (the “how” will be determined by the emergent behaviors of the enterprise)  
 
-A goal without a strategy (plan) for achievement is just a wish:  
+A goal without a strategy (**plan**) for achievement is just a wish:  
 Goals are the “why” of the enterprise architecture effort (clearly defined, measurable
 goals):  
 If goals are not one of the primary objects of the enterprise
@@ -40,9 +40,34 @@ management is the primary customer of the enterprise architecture team.
 
 e.g.: improving the interoperability among systems,  increasing the consistency between architecture & implementation teams.
 
+Strategic plans are those that express how an objective
+will be achieved over a relatively long term, often a number of years. Operational plans are
+smaller in scope than strategic plans, expressing how some subobjective within a strategic
+plan will be achieved. Operational plans usually have a scope measured in months
+or weeks. Finally, tactical plans are those day-to-day activities that address problems
+encountered while achieving an objective; they consist of the process that will be used
+to meet the operational and strategic goals.
+
+Anything that is capable of undertaking an activity is an **actor**:  
+Having clearly defined **goals** and **strategies** for achieving them is important, but it is
+not sufficient to make progress toward achievement until each goal and strategy has one
+or more actors assigned to it.
+
+A **process** is an expression of what we think a strategy will look like in practice.  
+many conceptions of processes do not survive **first contact with the real world**.  
+Some processes are really idealized strategies **subject to change** as emergent behaviors reveal themselves.  
+
+It is tempting for senior managers to mandate some processes where there is really
+no reason for the current structure other than the fact that people are comfortable with
+the processes.
+
+The logic of “we have always done it this way” is
+deadly to any enterprise in today’s dynamic environment.
 
 
-
+**To harness the inherent intelligence
+of any complex system, the actors must be free to innovate and find better ways to meet
+the enterprise’s goals.**
 
 
 
