@@ -10,6 +10,14 @@ Formal methods are ways of using mathematically precise notation to describe som
 notation is one that has rules that define the syntax (structure) and semantics (meaning)
 of its symbols.  
 
+Good rule of thumb is to:  
+Model those things that need to be standardized across the enterprise.  
+If different implementation teams do create incompatible versions from the same enterprise model, that is a clue that the model may not be detailed enough.
+
+e.g.: use a common authentication component.  
+Creating a single model of this component at the enterprise level will save the individual implementation teams the work of creating such a model for use in their own designs.
+
+
 
 
 ## Practical Event-Driven Microservices Architecture
