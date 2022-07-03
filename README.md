@@ -2,6 +2,48 @@
 Books I've Finished Reading
 
 ## Complex Enterprise Architecture by John D. McDowall
+A large corporation is an enterprise, but that corporation may also have multiple
+divisions, each of which is an enterprise in its own right.    
+
+One of the most important things the enterprise architecture should define is one or
+more controlled vocabularies that implementation teams should use to describe their
+system functionality, their interfaces, and the data that flows across those interfaces.  
+
+A reference architecture provides general guidelines,
+a solution architecture provides specific instructions.  
+
+The primary goal of the traditional practice of enterprise architecture is the eventual
+development of a solution architecture.
+
+**In practice, all architecture is ephemeral.**
+
+no architecture ever survives contact with the development team.  
+**plans rarely survive contact with reality**  
+Undertaking any complex activity without an initial planning
+step is setting yourself up for failure.
+
+no plan will be executed as first
+envisioned because reality and events will intervene, and the initial plan will be
+modified to deal with those circumstances as they arise; in retrospect, the actions that
+were taken may not resemble the original plan at all.no plan will be executed as first
+envisioned because reality and events will intervene, and the initial plan will be
+modified to deal with those circumstances as they arise; in retrospect, the actions that
+were taken may not resemble the original plan at all.
+
+It is much easier to deal with a problem you anticipated and planned for
+than to deal with a problem that you did not consider.
+
+
+An enterprise architecture project is an effort to make the enterprise architecture both more
+efficient and more effective.
+
+**goals need to be measurable and time-bound**
+
+The purpose of modeling is to answer questions, questions that either the
+enterprise architect or the enterprise’s management wish to have answers to.
+Models should be created to answer those specific questions, not for the sake of
+creating models.
+
 Making sure the model is useful is the architect’s primary task:  
 Precision  
 Model-based engineering  
@@ -67,7 +109,124 @@ deadly to any enterprise in today’s dynamic environment.
 
 **To harness the inherent intelligence
 of any complex system, the actors must be free to innovate and find better ways to meet
-the enterprise’s goals.**
+the enterprise’s goals.**   
+When new information becomes available, when environmental factors
+change, when new technology emerges, or when any other change to the status quo
+emerges, the enterprise must have the freedom to quickly respond to those changes.  
+
+
+Secondary objects cannot be adequately defined until the primary objects have been defined.  
+
+An important aspect of modeling a system at the enterprise level is to clearly and
+completely document its external interfaces.  
+One reason for this is that any available interface is a potential security vulnerability and understanding which security vulnerabilities exist is the first step in an effective security plan.
+
+**Behaviors** are the manifestation of processes and strategies.
+
+Environmental factors may make it impossible to carry out a process as first envisioned.
+Modeling the **environment** is important because the environment has a number of
+direct effects on how your enterprise functions:
+Can suppliers provide the raw materials needed to sell that many units?
+What effects will competitors’ actions have? Are there regulatory concerns such as the
+need to satisfy consumer-safety regulations?
+
+
+The problem is a failure to focus
+on the fundamental reason the enterprise architecture was started in the first place: to
+help the enterprise achieve its goals.
+
+The architecture team is better off focusing on whether the enterprise is achieving its goals than on how the
+enterprise is achieving its goals.
+
+The goals documented for the enterprise should be those that can be directly measured.  
+Goals must also be time-bound (realistic):
+For example, while increasing the dollar value of sales by 25 percent in a single quarter
+might be an unrealistic goal, increasing the dollar value of sales by that amount over
+a year is within the scope of possibilities.  
+If you are implementing a new customer
+relationship management system in the first quarter of the year, it is unlikely that you
+will see any significant effect on sales in that quarter because it takes time to install
+and configure the software, to train users, and for users to learn how to work with the
+new system.
+
+When formulating enterprise goals, keep in mind that goals are really an expression
+of what you expect the emergent behaviors of the enterprise to yield:  
+**measurable metric**:
+increasing the dollar value of total sales by 20 percent in the next year:  
+totalSales_currentYear = totalSales_previousYear * 1.20  (beginning January 1st in USD)
+
+What do you hope to get from all this investment of time and resources?
+
+Effective architecture goals must be derived from the enterprise goals. It is best to avoid the trivial sorts of
+objectives that are easily met with little effort.  
+e.g.:
+documenting the profiles of exposed interfaces of all systems in the enterprise:to understand how systems can and do interact with one another, cyberdefenses.  
+documenting the data flows across every system-to-system interface in the enterprise: help
+understand the data flow through the systems in the enterprise.
+
+
+As a general rule, processes should initially be modeled without too much detail and
+with the expectation that the process will organically change as new behaviors emerge
+in the enterprise.
+
+
+people are more
+likely to appreciate the importance of following the process if the reason is clearly
+spelled out.
+
+**data is a commodity**  
+all data should be modeled the same way.  
+
+Behavior models need to represent real-world activities and events
+to the maximum extent practicable; that is, they need to represent how the enterprise
+is behaving with enough fidelity to understand how the actors’ interactions with one
+another, with systems, and with the environment are producing the observed effects.
+
+
+Pick a goal, identify the observable effects that
+indicate whether the enterprise is making progress toward achieving that goal, and begin
+documenting the behaviors that produce the observable effect.If the desired effect is
+not observed in the enterprise (i.e., it appears the enterprise is not progressing toward
+that goal), then there must be some observable effect that indicates the enterprise is
+not achieving that goal—an undesirable effect. Use this effect as the starting point for
+modeling the behavior that creates it; from there, you can begin working on changing
+that behavior to produce a more desirable effect.
+
+
+Application and system logs capture many of the information elements that are
+important in modeling behaviors.
+
+
+When modeling interfaces provided by external systems, it is important to
+understand all of the functions available from those interfaces, even if they are not
+currently in use.
+
+Understanding the externally visible effects of the system, combined with its
+interfaces, makes it possible to predict the effects that removing the system or attempting
+to replace it will have on the enterprise.
+
+
+The behaviors that emerge from any complex system are of the most
+interest to the enterprise architect.
+
+The modern enterprise is highly dynamic: Teams implement, update, and replace
+systems on a nearly continuous basis; management may restructure the organization
+periodically; the enterprise may change its mission or business model; and any number
+of other changes come and go.
+
+
+A key characteristic of emergent
+behaviors is that they arise spontaneously, making it difficult to predict where and
+how they will arise and what parts of the enterprise will be involved.
+
+**modeling language**
+UML is very suitable for modeling actors, systems, and aspects of the environment.  
+SysML is better suited for most enterprise architecture models.  
+I prefer using BPMN to model processes and behaviors because it has a much
+richer set of elements for representing workflows than UML or SysML Activity diagrams.  
+I use OWL for two primary purposes: modeling data and describing my architecture metamodel.
+
+
 
 
 
