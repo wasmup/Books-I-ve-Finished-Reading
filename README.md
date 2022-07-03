@@ -21,6 +21,11 @@ Creating a single model of this component at the enterprise level will save the 
 In general, if something is a well-defined component and analyzing it by itself might be useful, then it is probably about the right size for a separate model.  
 it can answer the questions architects and managers need from the model.  
 
+If you do not have primary objects, it is difficult to say that you have an enterprise architecture:  
+Primary objects (absolutely essential - elements of models): they are the “who, what, when, where, and why” of your architecture  
+(the “how” will be determined by the emergent behaviors of the enterprise)  
+
+
 
 
 
